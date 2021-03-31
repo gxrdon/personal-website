@@ -1,0 +1,46 @@
+<div class="center">
+<h1>Technical Experience</h1>
+<h3>"Once you stop learning, you start dying."</h3>
+<h4>-Albert Einstein</h4>
+</div>
+<div style="height: 2px; background-color: rgb(40, 255, 136)"></div>
+    
+<div class="container">
+    <div class="contentLeft">
+        <h3>Languages</h3>
+        <div class="spaceEvenly">
+        <ul>
+            <li *ngFor="let skill of skillArr">                
+                <div class="contentLeft">
+                    <h6>{{ skill.name }}</h6>
+                </div>
+                <div class="contentRight">
+                    <i class="fa fa-star" [ngClass]="{starcoloron : skill.stars > 0}" aria-hidden="true"></i>
+                    <i class="fa fa-star" [ngClass]="{starcoloron : skill.stars > 1}" aria-hidden="true"></i>
+                    <i class="fa fa-star" [ngClass]="{starcoloron : skill.stars > 2}" aria-hidden="true"></i>
+                    <i class="fa fa-star" [ngClass]="{starcoloron : skill.stars > 3}" aria-hidden="true"></i>
+                    <i class="fa fa-star" [ngClass]="{starcoloron : skill.stars > 4}" aria-hidden="true"></i>
+                </div>                
+            </li>      
+        </ul>           
+    </div>
+    </div>
+    <div class="contentRight">
+        
+                <h3>Technologies/Methodologies</h3>
+                <ul>
+                    <li *ngFor="let tech of techArr">                
+                        <div class="contentLeft">
+                            <h6>{{ tech.name }}</h6>
+                        </div>
+                        <div class="contentRight">
+                            <i class="fa fa-star" [ngClass]="{starcoloron : tech.stars > 0}" aria-hidden="true"></i>
+                            <i class="fa fa-star" [ngClass]="{starcoloron : tech.stars > 1}" aria-hidden="true"></i>
+                            <i class="fa fa-star" [ngClass]="{starcoloron : tech.stars > 2}" aria-hidden="true"></i>
+                            <i class="fa fa-star" [ngClass]="{starcoloron : tech.stars > 3}" aria-hidden="true"></i>
+                            <i class="fa fa-star" [ngClass]="{starcoloron : tech.stars > 4}" aria-hidden="true"></i>
+                        </div>
+                    </li>      
+                </ul>                
+    </div>
+</div>

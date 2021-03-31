@@ -1,0 +1,11 @@
+h6 {
+    font:700;
+    font-family:'Courier New', Courier, monospace;
+    font-size:100px;
+}
+
+.left {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}

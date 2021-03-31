@@ -1,0 +1,40 @@
+.center{
+    text-align: center;
+}
+
+.container {
+    padding-top: 25px;    
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contentLeft {
+    display: inline-block;
+    align-content: left;
+}
+
+.contentRight {
+    display: inline-block;
+    align-content: right;    
+}
+
+.spaceEvenly {
+    align-content: space-between;
+    justify-content: space-between;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(157, 185, 170);
+}
+
+.starcoloron {
+    color: rgb(40, 255, 136);
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

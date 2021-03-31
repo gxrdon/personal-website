@@ -1,0 +1,31 @@
+nav {
+    background-color: rgba(12, 11, 11, 0.89);
+}
+
+.social-part .fa {
+    padding-right: 20px;
+}
+ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.pad-button {
+    margin-right: 20px;
+    color: rgb(40, 255, 136);
+    border: 1px solid;
+    
+}
+
+button:hover {
+    color: white;
+}
+
+a {
+    margin-right: 10px;
+    color: rgb(40, 255, 136);
+}
+
+a:hover {
+    color: white;
+}
